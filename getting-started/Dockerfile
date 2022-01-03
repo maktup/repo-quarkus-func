@@ -12,7 +12,6 @@ RUN mvn -ver
 #4. CREAR 'DIRECTORIOS' (DENTRO DEL CONTENEDOR): 
 WORKDIR /build
 WORKDIR /build/src
-WORKDIR /build/target
 
 #5. COPIAR ARCHIVO 'POM.xml' (DENTRO DEL CONTENEDOR): 
 COPY pom.xml /build
